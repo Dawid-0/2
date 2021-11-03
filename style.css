@@ -77,7 +77,6 @@ ol > li
     text-align:justify;
     margin-top: 20px;
     margin-bottom: 20px;
-    float: calc(10);
     clear: both;
     counter-set: 1;
 }
