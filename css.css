@@ -1,0 +1,137 @@
+body
+{
+    background-color: #454f5a91;
+    color: white;
+    font-family: 'lato' sans-serif;
+    font-size: 18px;
+    margin: 0 !important;
+}
+
+a:link
+{
+    color: #e1e1e4;
+}
+a:visited
+{
+    color:#e8e8e8;
+}
+#container
+{
+    width: 100%;
+    margin-right: 2%;
+}
+#logo
+{
+    color:#66eb61a8;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Marck Script', cursive;
+
+}
+#menu
+{
+    padding: 10px;
+    background: black;
+    text-align: center;
+
+}
+ol a:hover
+{
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+ol
+{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 20px;
+    height: 35px;
+    line-height: 200%;
+    display: inline-block;
+
+}
+ol a
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+ol > li
+{
+    float: left;
+    width: 150px;
+    height: 40px;
+}
+.allcontent
+{
+    min-width: 500px;
+}
+.content
+{
+    width: 90%;
+    background-color: #0000005b ;
+    text-align:justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: calc(10);
+    clear: both;
+    counter-set: 1;
+}
+.social
+{
+    width: 100%;
+    background-color: black ;
+    height: 100px;
+    clear: both;
+}
+
+.fb
+{
+    width: 25%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.ig
+{
+    width: 25%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.yt
+{
+    width: 25%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.tw
+{
+    width: 25%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.fb:hover
+{
+    background-color: #3b5998;
+}
+.ig:hover
+{
+    background-image: url(jpg/igbg.jpg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+}
+.yt:hover
+{
+    background-color: #FF0000;
+}
+.tw:hover
+{
+    background-color: #1DA1F2;
+}
